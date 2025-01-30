@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Chukwuma Angel - Portfolio</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <a href="#home" class="logo">Chukwuma Angel</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, Myself</h3>
+            <h1>Chukwuma Angel</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am a Computer Science Student at Algonquin College University. I enjoy problem-solving and coding.
+                Always strive to bring 100% to the work I do. I am passionate about developing complex applications that
+                solve real-world problems impacting millions of users.</p>
+            <div class="social-media">
+                <a href="https://github.com/chuk0009"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/share/19sqs7Y2jN/?mibextid=qi2Omg"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/msebube?igsh=cTdheGxscmxtY2E5"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="/assets/Web development resume.pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="assets/Portfolio Image.jpg" alt="Profile Image">
+        </div>
+
+
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="assets/Portfolio Image2.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span> </h2>
+            <h3>I'm a <span>Frontend Developer</span></h3>
+            <p>I am a Computer Science Student at Algonquin College University. I enjoy problem-solving and coding.
+                Always strive to bring 100% to the work I do. I am passionate about developing complex applications that
+                solve real-world problems impacting millions of users.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 class="heading">My <span>Services</span> </h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Web Development</h3>
+                <p>I develop websites using programming languages like HTML, CSS, and JavaScript to create functional
+                    and
+                    aesthetically pleasing user interfaces</p>
+
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-palette'></i>
+                <h3>UI/UX Design</h3>
+                <p>I use Miro, Figma, Mockplus, Sketch, Adobe XD to design creates user-friendly and visually appealing
+                    interfaces for digital products like websites
+                    and mobile apps</p>
+
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-android'></i>
+                <h3>Web Application</h3>
+                <p>I build software program that is accessed through a web browser, allowing users to perform various
+                    tasks
+                    online without needing to download or install any additional software on their device</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+
+    <section id="projects" class="projects">
+        <div class="projects-box">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+
+            <div class="wrapper">
+                <div class="project-item">
+                    <img src="/assets/project1.png" alt="">
+                    <h2>Fund Raiser</h2>
+                    <p>Fundhelping is a platform dedicated to providing you with the tools you need to raise money for
+                        whatever your cause may be</p>
+                    <div class="rating">
+                        <a href="https://fund-helping.vercel.app/" class="btn">Visit</a>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <img src="/assets/project2.png" alt="">
+                    <h2>eAmbulance</h2>
+                    <p>Our eAmbulance service ensures rapid, reliable, and efficient medical assistance when every
+                        second counts. Experience the
+                        future of urgent care today.</p>
+                    <div class="rating">
+                        <a href="https://life-link-kappa.vercel.app/" class="btn">Visit</i></a>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <img src="/assets/project3.png" alt="">
+                    <h2>Furniture</h2>
+                    <p>When it comes to affordable luxury furnitures, Macy Furniture has been serving the world with
+                        top-notch products and several awards of excellence and
+                        quality production.</p>
+                    <div class="rating">
+                        <a href="https://macy-furniture.vercel.app/" class="btn">Visit</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://formspree.io/f/xbldorvy" method="post">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" placeholder="Phone Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Sunmit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://github.com/chuk0009"><i class='bx bxl-github'></i></a>
+            <a href="https://www.facebook.com/share/19sqs7Y2jN/?mibextid=qi2Omg"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/msebube?igsh=cTdheGxscmxtY2E5"><i class='bx bxl-instagram'></i></a>
+        </div>
+
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
