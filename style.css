@@ -11,7 +11,7 @@
 
 :root {
     --bg-color: #eee;
-    --snd-bg-color: #89CFF0;
+    --snd-bg-color: #e0e0e0;
     --text-color: #111;
     --main-color: #00264d;
 }
@@ -70,7 +70,7 @@ section {
 
 .navbar a:hover,
 .navbar a.active {
-    color: var(--text-color);
+    color: var(--snd-bg-color);
 }
 
 #menu-icon {

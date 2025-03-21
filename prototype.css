@@ -11,7 +11,7 @@
 
 :root {
     --bg-color: #eee;
-    --snd-bg-color: #89CFF0;
+    --snd-bg-color: #e0e0e0;
     --text-color: #111;
     --main-color: #00264d;
 }
@@ -80,6 +80,21 @@ section {
     display: none;
 }
 
+.main-header {
+    font-weight: bold;
+    font-size: 4.5rem;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: var(--main-color);
+}
+.b-goal {
+    font-size: 3rem;
+    text-align: center;
+}
+.fund-p {
+    font-size: 1.8rem;
+}
 
 
 
